@@ -1,0 +1,27 @@
+.link-button {
+  padding: 20px 0;
+}
+
+.link-button input,
+.link-button [contenteditable] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e4e4e4;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 3px;
+  outline: none;
+  font-size: 14px;
+}
+
+.link-button button {
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(246, 77, 10);
+  color: white;
+}
+
+.link-button button.link-button--save {
+  background-color: rgb(0, 126, 255);
+}
